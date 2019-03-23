@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">危险货物运输考试</string>
+    <string name="action_settings">设置</string>
+    <string name="btn_train_sequence">顺序练习</string>
+    <string name="btn_train_random">随机练习</string>
+    <string name="btn_train_chapter">章节练习</string>
+    <string name="btn_train_wrong">错题练习</string>
+    <string name="btn_exam">模拟考试</string>
+    <string name="btn_find">查找考题</string>
+    <string name="btn_register">软件注册</string>
+    <string name="title_activity_exam">ExamActivity</string>
+    <string name="back">back</string>
+    <string name="preference_file_key">metadata</string>
+    <string name="previous">上一题</string>
+    <string name="next">下一题</string>
+</resources>
