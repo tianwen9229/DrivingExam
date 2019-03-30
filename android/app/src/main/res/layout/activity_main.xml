@@ -63,7 +63,7 @@
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_facebook" />
+                app:srcCompat="@mipmap/liebiaoshunxu" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -91,7 +91,7 @@
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_facebook" />
+                app:srcCompat="@mipmap/suijibofang" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -118,7 +118,7 @@
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_facebook" />
+                app:srcCompat="@mipmap/shitifenzu" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -136,7 +136,6 @@
             android:layout_marginLeft="32dp"
             android:layout_marginTop="32dp"
             android:layout_marginBottom="8dp"
-
             android:background="@color/transparent"
             android:gravity="center"
             android:orientation="vertical"
@@ -146,13 +145,66 @@
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_facebook" />
+                app:srcCompat="@mipmap/cuotiku" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="@string/btn_train_wrong" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_exam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_train_sequence">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@mipmap/kaoshijilu" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/btn_exam" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_train_sequence">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@mipmap/sousuo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/btn_find" />
 
         </LinearLayout>
 
@@ -174,13 +226,13 @@
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_facebook" />
+                app:srcCompat="@mipmap/setting" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="@string/btn_train_wrong" />
+                android:text="@string/btn_register" />
 
         </LinearLayout>
 

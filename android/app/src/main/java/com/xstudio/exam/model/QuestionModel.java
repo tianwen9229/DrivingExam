@@ -46,9 +46,14 @@ public class QuestionModel extends AbsModel {
         mDBHelper.ReInitQuestionDatabase(questions);
     }
 
-    public List<Question> GetQuestion(int mode, int type) {
-        // mode = 0 顺序
-        // type = 0 所有类型  type = 1 选择题  type = 2 判断题
+    public List<Question> GetQuestion(int mode, int type, int chapter) {
+        // mode = 0 顺序 mode = 1 随机
+        // type = 0 所有类型  type = 1 判断题 type = 2 选择题
+        // chapter = 0 所有章节 chapter = n 第几章
+
+       
+        // 处理顺序
+
         return null;
     }
 

@@ -1,6 +1,7 @@
 package com.xstudio.exam.ui.main;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.jude.beam.bijection.RequiresPresenter;
 import com.jude.beam.expansion.BeamBaseActivity;
@@ -31,5 +32,30 @@ public class MainActivity extends BeamBaseActivity<MainPresenter> {
     @OnClick(R.id.btn_train_random)
     public void onRandomTrainClick() {
         getPresenter().navigateTrainRandom();
+    }
+
+    @OnClick(R.id.btn_train_chapter)
+    public void onChapterTrainClick() {
+        Toast.makeText(this, "未实现", Toast.LENGTH_SHORT).show();
+    }
+
+    @OnClick(R.id.btn_train_wrong)
+    public void onWrongTrainClick() {
+        Toast.makeText(this, "未实现", Toast.LENGTH_SHORT).show();
+    }
+
+    @OnClick(R.id.btn_exam)
+    public void onExamClick() {
+        Toast.makeText(this, "未实现", Toast.LENGTH_SHORT).show();
+    }
+
+    @OnClick(R.id.btn_find)
+    public void onFindClick() {
+        Toast.makeText(this, "未实现", Toast.LENGTH_SHORT).show();
+    }
+
+    @OnClick(R.id.btn_register)
+    public void onRegisterClick() {
+        Toast.makeText(this, "未实现", Toast.LENGTH_SHORT).show();
     }
 }

@@ -49,12 +49,14 @@ public class QuestionUtils {
         return new Pair<>(version, questions);
     }
 
+    public final static int YesOrNo = 1;
+    public final static int Choice = 2;
 
     public static String GetQuestionType(Question question) {
         switch (question.mType) {
-            case 1:
+            case YesOrNo:
                 return "判断题";
-            case 2:
+            case Choice:
                 return "单选题";
         }
 
